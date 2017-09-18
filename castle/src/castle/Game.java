@@ -19,7 +19,7 @@ public class Game {
         lobby = new Room("大堂");
         pub = new Room("小酒吧");
         study = new Room("书房");
-        bedroom = new Room("卧室");
+        bedroom = new Room("卧室内");
         
         //	初始化房间的出口
         outside.setExits(null, lobby, study, pub);
